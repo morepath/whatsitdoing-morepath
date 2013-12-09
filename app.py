@@ -33,8 +33,9 @@ def serve_waitress(app):
 def serve(app):
     serve_waitress(app)
 
+the_app = make_app()
+
 if __name__ == '__main__':
-    the_app = make_app()
     if not 'NO_PROFILE' in os.environ:
         the_app = AccumulatingProfileMiddleware(
             the_app,
