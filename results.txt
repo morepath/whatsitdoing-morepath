@@ -1,0 +1,108 @@
+       Mon Dec  9 13:46:08 2013    wsgi.prof
+
+         257001 function calls (239001 primitive calls) in 0.391 seconds
+
+   Ordered by: internal time
+   List reduced from 103 to 100 due to restriction <100>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    12000    0.022    0.000    0.086    0.000 lookup.py:119(all)
+7000/2000    0.021    0.000    0.243    0.000 mapply.py:6(mapply)
+10000/3000    0.015    0.000    0.018    0.000 predicate.py:83(key_permutations)
+5000/2000    0.015    0.000    0.271    0.000 lookup.py:83(call)
+     7000    0.015    0.000    0.019    0.000 mapply.py:38(arginfo)
+    26000    0.014    0.000    0.014    0.000 {isinstance}
+     1000    0.013    0.000    0.069    0.000 wrappers.py:733(__init__)
+     6000    0.013    0.000    0.102    0.000 lookup.py:40(component)
+5000/2000    0.011    0.000    0.282    0.000 generic.py:42(wrapper)
+     6000    0.011    0.000    0.014    0.000 compose.py:82(all)
+     6000    0.010    0.000    0.013    0.000 generic.py:27(get_lookup)
+     1000    0.010    0.000    0.021    0.000 wrappers.py:1062(get_wsgi_headers)
+     1000    0.009    0.000    0.010    0.000 task.py:333(start_response)
+     2000    0.009    0.000    0.023    0.000 datastructures.py:1108(set)
+     3000    0.009    0.000    0.013    0.000 {method 'decode' of 'str' objects}
+     2000    0.009    0.000    0.016    0.000 predicate.py:59(get_specific)
+     1000    0.008    0.000    0.158    0.000 setup.py:78(get_response)
+     1000    0.007    0.000    0.074    0.000 traject.py:252(traject_consumer)
+     1000    0.006    0.000    0.007    0.000 wrappers.py:846(_set_status_code)
+    12000    0.006    0.000    0.006    0.000 {method 'get' of 'dict' objects}
+     1000    0.006    0.000    0.128    0.000 publish.py:17(resolve_model)
+     1000    0.005    0.000    0.021    0.000 wrappers.py:887(set_data)
+     7000    0.005    0.000    0.005    0.000 mapply.py:23()
+     1000    0.005    0.000    0.007    0.000 wsgi.py:664(__init__)
+     4000    0.005    0.000    0.007    0.000 predicate.py:33(get)
+     1000    0.005    0.000    0.391    0.000 app.py:55(__call__)
+     1000    0.004    0.000    0.015    0.000 wrappers.py:1149(get_app_iter)
+     1000    0.004    0.000    0.038    0.000 predicate.py:75(get)
+     1000    0.004    0.000    0.008    0.000 datastructures.py:1050(__contains__)
+     2000    0.004    0.000    0.029    0.000 datastructures.py:1155(__setitem__)
+     1000    0.004    0.000    0.184    0.000 publish.py:46(resolve_response)
+     1000    0.004    0.000    0.017    0.000 utils.py:66(__get__)
+     1000    0.004    0.000    0.006    0.000 request.py:7(__init__)
+     1000    0.004    0.000    0.013    0.000 wrappers.py:528(path)
+     2000    0.004    0.000    0.010    0.000 datastructures.py:824(_unicodify_header_value)
+     1000    0.003    0.000    0.010    0.000 app.py:40(request)
+     1000    0.003    0.000    0.047    0.000 wrappers.py:1175(get_wsgi_response)
+     2000    0.003    0.000    0.009    0.000 datastructures.py:866(__init__)
+     1000    0.003    0.000    0.004    0.000 datastructures.py:874(__getitem__)
+     2000    0.003    0.000    0.003    0.000 {method 'encode' of 'unicode' objects}
+     1000    0.003    0.000    0.008    0.000 datastructures.py:1176(to_wsgi_list)
+     2000    0.003    0.000    0.005    0.000 {method 'extend' of 'list' objects}
+     1000    0.003    0.000    0.003    0.000 {_codecs.utf_8_decode}
+     1000    0.003    0.000    0.060    0.000 wrappers.py:1192(__call__)
+     6000    0.003    0.000    0.086    0.000 {next}
+     1000    0.003    0.000    0.004    0.000 app.py:51(mounted)
+     1000    0.003    0.000    0.005    0.000 view.py:25(get_predicates)
+     2000    0.002    0.000    0.003    0.000 datastructures.py:1089(_validate_value)
+     7000    0.002    0.000    0.002    0.000 {method 'lower' of 'str' objects}
+     1000    0.002    0.000    0.046    0.000 view.py:31(__call__)
+     3000    0.002    0.000    0.003    0.000 datastructures.py:1060(__iter__)
+     6000    0.002    0.000    0.002    0.000 implicit.py:87(lookup)
+     1000    0.002    0.000    0.002    0.000 wrappers.py:205(__init__)
+     8000    0.002    0.000    0.002    0.000 {method 'pop' of 'dict' objects}
+     1000    0.002    0.000    0.003    0.000 wrappers.py:957(iter_encoded)
+     1000    0.002    0.000    0.002    0.000 _internal.py:184(__get__)
+     1000    0.002    0.000    0.022    0.000 model.py:12(create_context)
+     1000    0.002    0.000    0.003    0.000 utils.py:209(get_content_type)
+     1000    0.002    0.000    0.314    0.000 publish.py:70(publish)
+     1000    0.002    0.000    0.059    0.000 generic.py:49(component)
+     1000    0.002    0.000    0.005    0.000 utf_8.py:15(decode)
+     6000    0.002    0.000    0.002    0.000 {method 'copy' of 'dict' objects}
+     8000    0.001    0.000    0.001    0.000 {len}
+     5000    0.001    0.000    0.001    0.000 {iter}
+     1000    0.001    0.000    0.024    0.000 setup.py:73(mount_context)
+     1000    0.001    0.000    0.001    0.000 {method 'lstrip' of 'unicode' objects}
+     1000    0.001    0.000    0.001    0.000 {method 'insert' of 'list' objects}
+     1000    0.001    0.000    0.001    0.000 traject.py:203(__call__)
+     1000    0.001    0.000    0.001    0.000 model.py:7(__init__)
+     1000    0.001    0.000    0.075    0.000 setup.py:22(traject_consume)
+     1000    0.001    0.000    0.001    0.000 {method 'startswith' of 'str' objects}
+     1000    0.001    0.000    0.001    0.000 inspect.py:142(isfunction)
+     2000    0.001    0.000    0.001    0.000 {method 'intersection' of 'set' objects}
+     1000    0.001    0.000    0.002    0.000 wrappers.py:1021(is_sequence)
+     1000    0.001    0.000    0.001    0.000 publish.py:59(get_view_step)
+     1000    0.001    0.000    0.001    0.000 {method 'update' of 'dict' objects}
+     1000    0.001    0.000    0.001    0.000 traject.py:269(parse_path)
+     1000    0.001    0.000    0.001    0.000 view.py:13(__call__)
+     3000    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+     1000    0.001    0.000    0.008    0.000 _compat.py:91(wsgi_decoding_dance)
+     1000    0.001    0.000    0.002    0.000 wrappers.py:60(_warn_if_string)
+     1000    0.001    0.000    0.002    0.000 inspect.py:59(isclass)
+     1000    0.001    0.000    0.001    0.000 inspect.py:67(ismethod)
+     1000    0.001    0.000    0.001    0.000 datastructures.py:1064(__len__)
+     1000    0.001    0.000    0.001    0.000 mapply.py:93(getrawcode)
+     2000    0.001    0.000    0.001    0.000 wrappers.py:844(_get_status_code)
+     1000    0.001    0.000    0.001    0.000 app.py:34(lookup)
+     1000    0.001    0.000    0.001    0.000 setup.py:68(mount_traject)
+     1000    0.001    0.000    0.001    0.000 {method 'strip' of 'unicode' objects}
+     1000    0.000    0.000    0.000    0.000 {getattr}
+     1000    0.000    0.000    0.000    0.000 utils.py:99(lookup)
+     1000    0.000    0.000    0.000    0.000 setup.py:100(has_permission)
+     1000    0.000    0.000    0.000    0.000 request.py:12(set_resolver_info)
+     1000    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+     1000    0.000    0.000    0.000    0.000 wrappers.py:856(_get_status)
+     1000    0.000    0.000    0.000    0.000 app.py:15(hello_model)
+     1000    0.000    0.000    0.000    0.000 request.py:15(resolver_info)
+     1000    0.000    0.000    0.000    0.000 app.py:53()
+     1000    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     1000    0.000    0.000    0.000    0.000 {callable}

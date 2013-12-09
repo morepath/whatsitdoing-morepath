@@ -38,7 +38,7 @@ if __name__ == '__main__':
     if not 'NO_PROFILE' in os.environ:
         the_app = AccumulatingProfileMiddleware(
             the_app,
-            cachegrind_filename='cachegrind.out',
+#            cachegrind_filename='cachegrind.out',
             log_filename='wsgi.prof',
             discard_first_request=True,
             flush_at_shutdown=True,
