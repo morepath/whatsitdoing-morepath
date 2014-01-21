@@ -12,7 +12,7 @@ class Hello(object):
 
 hello = Hello()
 
-@app.root(model=Hello)
+@app.model(model=Hello, path='')
 def hello_model():
     return hello
 
