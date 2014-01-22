@@ -17,7 +17,7 @@ def hello_model():
     return hello
 
 @app.view(model=Hello)
-def hello_view(request, model):
+def hello_view(self, request):
     return "hello"
 
 def make_app():
