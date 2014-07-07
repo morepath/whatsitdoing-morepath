@@ -5,7 +5,8 @@ import waitress
 
 from repoze.profile.profiler import AccumulatingProfileMiddleware
 
-app = morepath.App('wha')
+class app(morepath.App):
+    pass
 
 class Hello(object):
     pass
@@ -24,7 +25,7 @@ def make_app():
     c = morepath.setup()
     c.scan()
     c.commit()
-    return app
+    return app()
 
 def serve_waitress(app):
     print('serving using waitress')
